@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh Lpr lFf">
-    <q-header class="bg-white" bordered>
+    <q-header class="bg-transparent">
       <q-toolbar>
         <q-btn
           flat
@@ -13,20 +13,26 @@
 
         <q-toolbar-title>
           <img
+            id="brand"
             alt="Rachel & Evan"
-            src="~assets/re-logo-black.svg"
+            src="~assets/re-logo-white.svg"
           >
         </q-toolbar-title>
 
-        <div>We're getting married!</div>
+        <div>
+          <img
+            id="hibiscus"
+            src="~assets/hibiscus2.png"
+          >
+        </div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer
+    <drawer :leftDrawerOpen="leftDrawerOpen" />
+    <!-- <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
-      bordered
-      content-class="bg-grey-1"
+      content-class="bg-transparent"
     >
       <q-list>
         <EssentialLink
@@ -35,7 +41,7 @@
           v-bind="link"
         />
       </q-list>
-    </q-drawer>
+    </q-drawer> -->
 
     <q-page-container>
       <router-view />
@@ -44,61 +50,40 @@
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
-
-const linksData = [
-  {
-    title: 'Our Story',
-    // caption: 'chat.quasar.dev',
-    // icon: 'heart',
-    link: 'story'
-  },
-  {
-    title: 'Wedding Details',
-    link: 'wedding-details'
-  },
-  {
-    title: 'Travel & Accommodations',
-    link: 'travel-and-accommodations'
-  },
-  {
-    title: 'Wedding Party',
-    link: 'wedding-party'
-  },
-  {
-    title: 'Activities',
-    link: 'activities'
-  },
-  {
-    title: 'Ceremony',
-    link: 'ceremony'
-  },
-  {
-    title: 'Photos',
-    link: 'photos'
-  },
-  {
-    title: 'Registry',
-    link: 'registry'
-  }
-];
+import Drawer from 'layouts/Drawer.vue'
 
 export default {
   name: 'MainLayout',
-  components: { EssentialLink },
+  components: { Drawer },
   data () {
     return {
       leftDrawerOpen: false,
-      essentialLinks: linksData
     }
   }
 }
 </script>
 
 <style lang="sass">
+#brand
+  margin-left: 1rem
+
+.q-header
+  // background-image: url("/img/aqua.jpg")
+  // background-size: cover
+
+.q-header--bordered
+  border-color: #ffffff
+
 .q-toolbar__title
   padding: 15px 0
 
   img
     height: 45px
+
+#hibiscus
+  width: 250px
+  position: fixed
+  top: -50px
+  right: -50px
+  // transform: rotate(180deg)
 </style>

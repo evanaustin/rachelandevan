@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    We met through rock climbing... and the rest is history!
+    Coming soon &hellip; please check back later!
   </q-page>
 </template>
 

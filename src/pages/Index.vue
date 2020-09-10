@@ -1,9 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <!-- <img
-      alt="Rachel & Evan"
-      src="~assets/re-logo.svg"
-    > -->
+    <!-- <img class="bg" src="~assets/aqua.jpg"/> -->
   </q-page>
 </template>
 
@@ -13,9 +10,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
-// @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
-// body {
-
-// }
+<style lang="sass">
+img.bg
+  opacity: 0.15
 </style>

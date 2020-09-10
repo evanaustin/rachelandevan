@@ -1,8 +1,9 @@
 <template>
 	<q-page class="flex flex-center">
-		<div class="q-pa-md full-width">
-			<lightbox :items="images"></lightbox>
-		</div>
+		<!-- <div class="q-pa-md full-width"> -->
+			Coming soon &hellip; please check back later!
+      <!-- <lightbox :items="images"></lightbox> -->
+		<!-- </div> -->
 	</q-page>
 </template>
 

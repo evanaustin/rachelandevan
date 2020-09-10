@@ -1,6 +1,7 @@
 <template>
 	<q-page class="flex">
 		<div class="q-pa-md full-width">
+      <h1>Our Story</h1>
 			<p>
 				We met in early 2018 at our local climbing gym. At the time we were, quite honestly, two unlikely friends, but happened to click pretty much right away. Fueled by our passion and love of climbing, we found ourselves hanging out (and crushing it) at the gym with our group of friends. We’d learn a little more about each other over post-send beers and fries at the taproom next door.
 				Evan had an uncanny way of listening to and engaging in conversations about life that helped me process the various situations and struggles I was facing during 2018; whereas Rachel had an uncanny way of slipping through the gates of my heart where I too, could open up and be myself in a way that was closed off to others.
@@ -19,9 +20,7 @@
 	};
 </script>
 
-<style lang="scss">
-// @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
-// body {
-
-// }
+<style lang="sass">
+.q-page
+  margin: 0 8rem
 </style>
