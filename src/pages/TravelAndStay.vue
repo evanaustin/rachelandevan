@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'Our Story'
+  name: 'Travel & Stay'
 }
 </script>
 

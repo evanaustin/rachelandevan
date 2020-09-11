@@ -22,10 +22,10 @@ const routes = [
     ]
   },
   {
-    path: '/travel-and-accommodations',
+    path: '/travel-and-stay',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '/travel-and-accommodations', component: () => import('pages/TravelAndAccommodations.vue') }
+      { path: '/travel-and-stay', component: () => import('pages/TravelAndStay.vue') }
     ]
   },
   {

@@ -47,7 +47,7 @@
 					"Father of the Groom": "Brian Grinde",
 					"First Brother of the Groom": "Cleyton Grinde",
 					"Second Brother of the Groom": "Zackary Grinde",
-					"Grandmother of the Groom": "Ursula Grinde",
+					// "Grandmother of the Groom": "Ursula Grinde",
 				},
 			};
 		},

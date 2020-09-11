@@ -9,8 +9,13 @@
           v-for="link in essentialLinks"
           :key="link.title"
           v-bind="link"
+          @click="leftDrawerOpen = !leftDrawerOpen"
         />
       </q-list>
+      <img
+        id="palm"
+        src="~assets/palmleaf2.png"
+      >
     </q-drawer>
 </template>
 
@@ -18,6 +23,10 @@
 import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
+  {
+    title: 'Home',
+    link: '/#'
+  },
   {
     title: 'Our Story',
     // caption: 'chat.quasar.dev',
@@ -56,8 +65,17 @@ const linksData = [
 
 export default {
   name: 'Drawer',
-  props: ["leftDrawerOpen"],
+  props: {
+    leftDrawerOpen: {
+      default: true
+    }
+  },
   components: { EssentialLink },
+  computed: {
+    small() {
+      return $q.screen.lt.sm;
+    }
+  },
   data () {
     return {
       // leftDrawerOpen: false,
@@ -68,28 +86,4 @@ export default {
 </script>
 
 <style lang="sass">
-.q-drawer
-  width: 375px !important
-  // padding-top: 1rem
-  background: transparent
-  // background-image: url("/img/aqua.jpg")
-  // background-size: cover
-  // font-family: Raleway
-  font-family: Poiret One
-  // color: #ffffff
-  color: #fff
-  // text-decoration-thickness: 110%;
-  // text-shadow: 0.5px 0.5px 0 #fff //#E34F50
-  font-weight: 500
-  font-size: 32px
-
-  &.q-drawer--bordered
-    border-color: #ffffff
-
-  .q-item.q-router-link--active
-    color: #fff
-    // text-decoration: underline
-    background: rgba(255,255,255,0.1)
-    padding-right: 50px
-    // width: 150%
 </style>

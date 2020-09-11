@@ -1,24 +1,19 @@
 <template>
-  <div id="q-app">
+  <div id="q-app" :class="`page${route}`">
     <router-view />
-    <img
-      id="palm"
-      src="~assets/palmleaf2.png"
-    >
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  computed: {
+    route() {
+      return this.$route.path.replace('/','_');
+    }
+  }
 }
 </script>
 
 <style lang="sass">
-#palm
-  width: 300px
-  position: fixed
-  bottom: -50px
-  left: -50px
-  transform: rotate(180deg)
 </style>

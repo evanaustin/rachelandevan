@@ -1,6 +1,6 @@
 <template>
   <q-layout view="hHh Lpr lFf">
-    <q-header class="bg-transparent">
+    <q-header :class="leftDrawerOpen || $route.path == '/'  || $route.path == '/#' ?  'bg-transparent' : 'bg-white'">
       <q-toolbar>
         <q-btn
           flat
@@ -8,15 +8,18 @@
           round
           icon="menu"
           aria-label="Menu"
+          :color="leftDrawerOpen || $route.path == '/'  || $route.path == '/#' ?  'white' : 'black'"
           @click="leftDrawerOpen = !leftDrawerOpen"
         />
 
         <q-toolbar-title>
-          <img
-            id="brand"
-            alt="Rachel & Evan"
-            src="~assets/re-logo-white.svg"
-          >
+          <router-link to="/">
+            <img
+              id="brand"
+              alt="Rachel & Evan"
+              :src="leftDrawerOpen || $route.path == '/'  || $route.path == '/#' ?  lightLogo : darkLogo"
+            >
+          </router-link>
         </q-toolbar-title>
 
         <div>
@@ -28,8 +31,8 @@
       </q-toolbar>
     </q-header>
 
-    <drawer :leftDrawerOpen="leftDrawerOpen" />
-    <!-- <q-drawer
+    <!-- <drawer :leftDrawerOpen="leftDrawerOpen" /> -->
+    <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
       content-class="bg-transparent"
@@ -39,9 +42,15 @@
           v-for="link in essentialLinks"
           :key="link.title"
           v-bind="link"
+          @click="leftDrawerOpen = !leftDrawerOpen"
         />
       </q-list>
-    </q-drawer> -->
+
+      <img
+        id="palm"
+        src="~assets/palmleaf2.png"
+      >
+    </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -50,40 +59,63 @@
 </template>
 
 <script>
-import Drawer from 'layouts/Drawer.vue'
+import EssentialLink from 'components/EssentialLink.vue'
+
+const linksData = [
+  {
+    title: 'Home',
+    link: '/#'
+  },
+  {
+    title: 'Our Story',
+    // caption: 'chat.quasar.dev',
+    // icon: 'heart',
+    link: 'story'
+  },
+  {
+    title: 'Wedding Details',
+    link: 'wedding-details'
+  },
+  {
+    title: 'Travel & Stay',
+    link: 'travel-and-stay'
+  },
+  {
+    title: 'Wedding Party',
+    link: 'wedding-party'
+  },
+  {
+    title: 'Activities',
+    link: 'activities'
+  },
+  {
+    title: 'Ceremony',
+    link: 'ceremony'
+  },
+  {
+    title: 'Photos',
+    link: 'photos'
+  },
+  {
+    title: 'Registry',
+    link: 'registry'
+  }
+];
+
 
 export default {
   name: 'MainLayout',
-  components: { Drawer },
+  components: { EssentialLink },
   data () {
     return {
-      leftDrawerOpen: false,
+      lightLogo: 'statics/re-logo-white.svg',
+      darkLogo: 'statics/re-logo-black.svg',
+      leftDrawerOpen: true,
+      essentialLinks: linksData
     }
   }
 }
 </script>
 
 <style lang="sass">
-#brand
-  margin-left: 1rem
-
-.q-header
-  // background-image: url("/img/aqua.jpg")
-  // background-size: cover
-
-.q-header--bordered
-  border-color: #ffffff
-
-.q-toolbar__title
-  padding: 15px 0
-
-  img
-    height: 45px
-
-#hibiscus
-  width: 250px
-  position: fixed
-  top: -50px
-  right: -50px
-  // transform: rotate(180deg)
 </style>

@@ -3,13 +3,32 @@
 		<div class="q-pa-md full-width">
       <h1>Our Story</h1>
 			<p>
-				We met in early 2018 at our local climbing gym. At the time we were, quite honestly, two unlikely friends, but happened to click pretty much right away. Fueled by our passion and love of climbing, we found ourselves hanging out (and crushing it) at the gym with our group of friends. We’d learn a little more about each other over post-send beers and fries at the taproom next door.
-				Evan had an uncanny way of listening to and engaging in conversations about life that helped me process the various situations and struggles I was facing during 2018; whereas Rachel had an uncanny way of slipping through the gates of my heart where I too, could open up and be myself in a way that was closed off to others.
-				Throughout our friendship and eventual relationship, we were always just so in tune with the other, that we knew what the other was thinking and feeling without it actually being verbalized.
+				We met some time in early 2018 at our local climbing gym &mdash; introduced to one another by a mutual friend. We became fast friends and happened to "click" right away. Fueled by our passion and love of climbing, we found ourselves hanging out (and crushing it) at the gym on the regular. We’d learn a little more about each other over post-climb beers and fries at the Wasena Taproom just next door &hellip;
 			</p>
-			<p>My (Rachel’s) mom and coworkers definitely knew something was up toward the end of 2018 between Evan and me. I think I subconsciously knew as well, but didn’t fully own that feeling until mid-December. Pretty much inseparable since we first met, we took our friendship to the next level with our first date in mid-December 2018. After that date, we knew we wanted to be in an official relationship, and have continued growing together ever since.</p>
-			<p>I know that I loved Evan early on, but that love was more of a deep appreciation and friendship love. The deeper, more intimate love surfaced later after we started dating. Evan and I continued to grow through our relationship, with each of us challenging the other to grow, question, and explore life, and we look forward to continue growing together forever.</p>
-			<p>Life is an adventure; a journey. We are to “run the race with perseverance...fixing our eyes on Jesus (Heb. 12:2),” and there is no one I’d rather be able to turn to, look at, and see running beside me, than Evan Austin. I’m so excited to embark on the journey the Lord has created for me and “the one whom my soul loves (Song of Solomon 3:4).”</p>
+			<p>
+				<em>Check back again later for more of our story!</em>
+			</p>
+      <!-- <p>
+        For Rachel, Evan had a way of listening to and engaging in conversations about life that helped Rachel process the various situations and struggles she was facing during 2018.
+      </p>
+      <p>
+        For Evan, Rachel had a way of slipping through his walls so that he would gradually open up and be himself in a way that was rarely shared with others.
+      </p>
+      <p>
+        Throughout our friendship and eventual relationship, each of us was always <u>so</u> in tune with the other that we knew what the other was thinking and feeling &mdash; without it actually being verbalized.
+      </p>
+			<p>
+        Rachel’s mom and coworkers seemed to know "something was up" toward the end of 2018 between her and Evan. Rachel claims to subconsciously have known as well, but didn’t fully "own" that feeling until December.
+			</p>
+      <p>
+        More or less inseparable since we first met, we finally elevated our friendship to the next level with our first formal date that mid-December of 2018. After that date, we decided that we wanted to be in an bona fide relationship.
+      </p>
+      <p>
+        Over the past couple years of our relationship and inevitable engagenement, each of us has challenged the other to grow, question, and explore life, and we look forward to continue growing together forever.
+      </p>
+			<p>
+        <strong>Rachel:</strong> "Life is an adventure; a journey. We are to 'run the race with perseverance...fixing our eyes on Jesus (Heb. 12:2),' and there is no one I’d rather be able to turn to, look at, and see running beside me, than Evan Austin. I’m so excited to embark on the journey the Lord has created for me and 'the one whom my soul loves (Song of Solomon 3:4).'"
+			</p> -->
 		</div>
 	</q-page>
 </template>
@@ -21,6 +40,11 @@
 </script>
 
 <style lang="sass">
-.q-page
-  margin: 0 8rem
+@media screen and (max-width: 600px)
+  .q-page
+    margin: 0 2rem
+
+@media screen and (min-width: 601px)
+  .q-page
+    margin: 0 8rem
 </style>
