@@ -62,13 +62,10 @@ export default {
       left: 0
       width: 100%
       height: 100%
-      background-image: url("~assets/ridgewalk.jpg")
+      background-image: url("~assets/sunrisesmile.jpg")
       background-size: cover
-      background-position: left top
-      // -webkit-filter: blur(1px)
-      filter: brightness(60%)
-      // -webkit-filter: blur(1px)
-      // filter: blur(1px)
+      background-position: center
+      filter: brightness(95%)
       @media screen and (max-width: 600px)
-        background-position: 33% top
+        background-position: 66% center
 </style>
