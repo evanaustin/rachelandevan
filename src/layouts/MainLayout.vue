@@ -106,15 +106,11 @@ const linksData = [
 export default {
   name: 'MainLayout',
   components: { EssentialLink },
-  computed: {
-    leftDrawerOpen() {
-      return !this.$q.screen.lt.sm;
-    }
-  },
   data () {
     return {
       lightLogo: 'statics/re-logo-white.svg',
       darkLogo: 'statics/re-logo-black.svg',
+      leftDrawerOpen: !this.$q.screen.lt.sm,
       essentialLinks: linksData
     }
   }
