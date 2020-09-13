@@ -6,7 +6,7 @@
   "author": "EvanGrinde <evan.grinde@gmail.com>",
   "private": true,
   "scripts": {
-    "build": "quasar build",
+    "build": "quasar build && cp _redirects dist/spa",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
