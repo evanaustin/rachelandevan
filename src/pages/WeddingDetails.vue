@@ -1,9 +1,10 @@
 <template>
 	<q-page>
+    <h1>Wedding Details</h1>
 		<h5>Monday, May 3, 2021: Wedding Day!</h5>
 		<ul>
 			<li>
-				<strong>Sunset Wedding at Sunset Key Cottages</strong>
+				<strong>Sunset Wedding at <a href="https://www.sunsetkeycottages.com" target="_blank">Sunset Key Cottages</a></strong>
 			</li>
 			<ul>
 				<li>245 Front Street</li>
@@ -16,7 +17,7 @@
 				<strong>Wedding Dinner Reception</strong>
 			</li>
 			<ul>
-				<li>Latitudes at Sunset Key Cottages</li>
+				<li><a href="https://www.sunsetkeycottages.com/key-west-restaurants/latitudes/" target="_blank">Latitudes</a> at Sunset Key Cottages</li>
 				<li>245 Front Street</li>
 				<li>Key West, FL 33040</li>
 				<li>8:00p-10:00p</li>
