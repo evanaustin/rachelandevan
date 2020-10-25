@@ -28,7 +28,7 @@
 			<ul>
 				<li>If not staying at Sunset Key Cottages, you will have to take a ferry to the island.</li>
 				<li>Check in at Margaritaville Key West Resort & Marina where you will be greeted by an Island Ambassador and taken via golf cart to the ferry for a seven minute cruise to Sunset Key. The ferry runs from 6:00a-midnight, then on-call from midnight-6:00a.</li>
-				<li>Further details</li>
+				<li><a href="https://www.sunsetkeycottages.com/contact-us/" target="_blank">Further details</a></li>
 			</ul>
 		</ul>
 		<h5>Tuesday, May 4, 2021</h5>
