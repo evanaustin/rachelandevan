@@ -38,13 +38,3 @@
 		name: "Our Story",
 	};
 </script>
-
-<style lang="sass">
-@media screen and (max-width: 600px)
-  .q-page
-    margin: 0 2rem
-
-@media screen and (min-width: 601px)
-  .q-page
-    margin: 0 8rem
-</style>
