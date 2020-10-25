@@ -98,7 +98,7 @@ const linksData = [
   },
   {
     title: 'Registry',
-    link: 'registry'
+    link: 'https://www.zola.com/registry/andrewsgrindewedding'
   }
 ];
 
