@@ -1,45 +1,76 @@
 <template>
 	<q-page>
-    <h1>Wedding Details</h1>
-		<h5>Monday, May 3, 2021: Wedding Day!</h5>
-		<ul>
-			<li>
-				<strong>Sunset Wedding at <a href="https://www.sunsetkeycottages.com" target="_blank">Sunset Key Cottages</a></strong>
-			</li>
+		<div class="q-pa-md full-width">
+			<h1>Wedding Details</h1>
+			<h5>Monday, May 3, 2021: Wedding Day!</h5>
 			<ul>
-				<li>245 Front Street</li>
-				<li>Key West, FL 33040</li>
-				<li>7:00p-7:30p</li>
-				<li>Attire: Formal</li>
-				<li>Wedding pictures to follow</li>
+				<li>
+					<strong
+						>Sunset Wedding at
+						<a href="https://www.sunsetkeycottages.com" target="_blank"
+							>Sunset Key Cottages</a
+						></strong
+					>
+				</li>
+				<ul>
+					<li>245 Front Street</li>
+					<li>Key West, FL 33040</li>
+					<li>7:00p-7:30p</li>
+					<li>Attire: Formal</li>
+					<li>Wedding pictures to follow</li>
+				</ul>
+				<li>
+					<strong>Wedding Dinner Reception</strong>
+				</li>
+				<ul>
+					<li>
+						<a
+							href="https://www.sunsetkeycottages.com/key-west-restaurants/latitudes/"
+							target="_blank"
+							>Latitudes</a
+						>
+						at Sunset Key Cottages
+					</li>
+					<li>245 Front Street</li>
+					<li>Key West, FL 33040</li>
+					<li>8:00p-10:00p</li>
+					<li>Attire: Formal</li>
+				</ul>
+				<li>
+					<strong>Getting There (For Wedding & Reception)</strong>
+				</li>
+				<ul>
+					<li>
+						If not staying at Sunset Key Cottages, you will have to take a ferry
+						to the island.
+					</li>
+					<li>
+						Check in at Margaritaville Key West Resort & Marina where you will
+						be greeted by an Island Ambassador and taken via golf cart to the
+						ferry for a seven minute cruise to Sunset Key. The ferry runs from
+						6:00a-midnight, then on-call from midnight-6:00a.
+					</li>
+					<li>
+						<a
+							href="https://www.sunsetkeycottages.com/contact-us/"
+							target="_blank"
+							>Further details</a
+						>
+					</li>
+				</ul>
 			</ul>
-			<li>
-				<strong>Wedding Dinner Reception</strong>
-			</li>
+			<h5>Tuesday, May 4, 2021</h5>
 			<ul>
-				<li><a href="https://www.sunsetkeycottages.com/key-west-restaurants/latitudes/" target="_blank">Latitudes</a> at Sunset Key Cottages</li>
-				<li>245 Front Street</li>
-				<li>Key West, FL 33040</li>
-				<li>8:00p-10:00p</li>
-				<li>Attire: Formal</li>
+				<li>THANK YOU!</li>
+				<ul>
+					<li>
+						Please open your thank you cards and enjoy the rest of your stay in
+						the Florida Keys!
+					</li>
+					<li>We look forward to seeing you again in a few weeks!</li>
+				</ul>
 			</ul>
-			<li>
-				<strong>Getting There (For Wedding & Reception)</strong>
-			</li>
-			<ul>
-				<li>If not staying at Sunset Key Cottages, you will have to take a ferry to the island.</li>
-				<li>Check in at Margaritaville Key West Resort & Marina where you will be greeted by an Island Ambassador and taken via golf cart to the ferry for a seven minute cruise to Sunset Key. The ferry runs from 6:00a-midnight, then on-call from midnight-6:00a.</li>
-				<li><a href="https://www.sunsetkeycottages.com/contact-us/" target="_blank">Further details</a></li>
-			</ul>
-		</ul>
-		<h5>Tuesday, May 4, 2021</h5>
-		<ul>
-			<li>THANK YOU!</li>
-			<ul>
-				<li>Please open your thank you cards and enjoy the rest of your stay in the Florida Keys!</li>
-        <li>We look forward to seeing you again in a few weeks!</li>
-			</ul>
-		</ul>
+		</div>
 	</q-page>
 </template>
 
