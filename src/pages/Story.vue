@@ -1,5 +1,5 @@
 <template>
-	<q-page class="flex">
+	<q-page>
 		<div class="q-pa-md full-width">
       <h1>Our Story</h1>
 			<p>
