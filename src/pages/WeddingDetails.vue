@@ -16,7 +16,7 @@
 					<li>245 Front Street</li>
 					<li>Key West, FL 33040</li>
 					<li>7:00p-7:30p</li>
-					<li>Attire: Formal</li>
+					<li>Attire: Cocktail/Semi-Formal</li>
 					<li>Wedding pictures to follow</li>
 				</ul>
 				<li>
@@ -34,7 +34,7 @@
 					<li>245 Front Street</li>
 					<li>Key West, FL 33040</li>
 					<li>8:00p-10:00p</li>
-					<li>Attire: Formal</li>
+					<li>Attire: Cocktail/Semi-Formal</li>
 				</ul>
 				<li>
 					<strong>Getting There (For Wedding & Reception)</strong>
