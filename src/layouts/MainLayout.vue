@@ -89,10 +89,6 @@ const linksData = [
     link: 'activities'
   },
   {
-    title: 'Ceremony',
-    link: 'ceremony'
-  },
-  {
     title: 'Photos',
     link: 'photos'
   },

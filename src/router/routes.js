@@ -43,13 +43,6 @@ const routes = [
     ]
   },
   {
-    path: '/ceremony',
-    component: () => import('layouts/MainLayout.vue'),
-    children: [
-      { path: '/ceremony', component: () => import('pages/Ceremony.vue') }
-    ]
-  },
-  {
     path: '/photos',
     component: () => import('layouts/MainLayout.vue'),
     children: [
