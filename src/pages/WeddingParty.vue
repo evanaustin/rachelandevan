@@ -1,6 +1,7 @@
 <template>
 	<q-page class="flex">
 		<div class="q-pa-md full-width">
+    <h1>Wedding Party</h1>
 			<div class="row q-col-gutter-x-md">
 				<div class="col-6">
           <h6>Family of the Bride</h6>
