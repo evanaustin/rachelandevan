@@ -6,14 +6,17 @@
   "author": "EvanGrinde <evan.grinde@gmail.com>",
   "private": true,
   "scripts": {
+    "start": "quasar dev",
     "build": "quasar build && cp _redirects dist/spa",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "@morioh/v-lightbox": "^1.0.3",
     "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.0",
     "core-js": "^3.6.5",
     "quasar": "^1.0.0",
+    "vue-stack-grid": "^1.2.1",
     "vue2-filters": "^0.11.0"
   },
   "devDependencies": {
