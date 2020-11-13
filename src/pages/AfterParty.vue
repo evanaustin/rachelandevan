@@ -64,7 +64,7 @@
 
 <script>
 	export default {
-		name: "After Party",
+		name: "AfterParty",
 	};
 </script>
 

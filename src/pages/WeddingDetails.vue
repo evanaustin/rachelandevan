@@ -76,7 +76,7 @@
 
 <script>
 	export default {
-		name: "Our Story",
+		name: "WeddingDetails",
 	};
 </script>
 

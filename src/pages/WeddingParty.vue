@@ -33,7 +33,7 @@
 
 <script>
 	export default {
-		name: "Wedding Party",
+		name: "WeddingParty",
 		data() {
 			return {
 				brideParty: {
