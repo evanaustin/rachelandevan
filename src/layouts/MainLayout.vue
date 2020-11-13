@@ -79,6 +79,10 @@
 			// caption: 'chat.quasar.dev',
 			// icon: 'heart',
 			link: "story",
+    },
+    {
+			title: "Photos",
+			link: "photos",
 		},
 		{
 			title: "Wedding Details",
@@ -91,10 +95,6 @@
 		{
 			title: "Activities",
 			link: "activities",
-		},
-		{
-			title: "Photos",
-			link: "photos",
 		},
 		{
 			title: "After Party",
