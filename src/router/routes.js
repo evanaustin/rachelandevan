@@ -50,6 +50,13 @@ const routes = [
     ]
   },
   {
+    path: '/after-party',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [
+      { path: '/after-party', component: () => import('pages/AfterParty.vue') }
+    ]
+  },
+  {
     path: '/registry',
     component: () => import('layouts/MainLayout.vue'),
     children: [

@@ -81,16 +81,16 @@ const linksData = [
     link: 'travel-and-stay'
   },
   {
-    title: 'Wedding Party',
-    link: 'wedding-party'
-  },
-  {
     title: 'Activities',
     link: 'activities'
   },
   {
     title: 'Photos',
     link: 'photos'
+  },
+  {
+    title: 'After Party',
+    link: 'after-party'
   },
   {
     title: 'Registry',
