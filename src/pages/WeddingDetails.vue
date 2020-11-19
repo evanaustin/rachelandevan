@@ -3,6 +3,7 @@
 		<div class="q-pa-md full-width">
 			<h1>Wedding Details</h1>
 			<h5>Monday, May 3, 2021: Wedding Day!</h5>
+      <p>We are eloping with immediate family to get married in Key West, FL.</p>
 			<ul>
 				<li>
 					<strong

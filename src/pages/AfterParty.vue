@@ -3,6 +3,7 @@
 		<div class="q-pa-md full-width">
 			<h1>After Party</h1>
 			<h5>Saturday July 17, 2021: Our Happily Ever After Party!</h5>
+      <p>After our elopment in May, we'll have a gathering for family and friends in July.</p>
 			<ul>
 				<li>
 					<strong
