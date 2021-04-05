@@ -88,14 +88,14 @@
 			title: "Wedding Details",
 			link: "wedding-details",
 		},
-		{
+		/* {
 			title: "Travel & Stay",
 			link: "travel-and-stay",
-		},
-		{
+		}, */
+		/* {
 			title: "Activities",
 			link: "activities",
-		},
+		}, */
 		{
 			title: "After Party",
 			link: "after-party",
