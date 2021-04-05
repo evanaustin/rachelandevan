@@ -1,87 +1,47 @@
 <template>
-	<q-page>
-		<div class="q-pa-md full-width">
-			<h1>Wedding Details</h1>
-			<h5>Monday, May 3, 2021: Wedding Day!</h5>
-      <p>We are eloping with immediate family to get married in Key West, FL.</p>
-			<ul>
-				<li>
-					<strong
-						>Sunset Wedding at
-						<a href="https://www.sunsetkeycottages.com" target="_blank"
-							>Sunset Key Cottages</a
-						></strong
-					>
-				</li>
-				<ul>
-					<li>245 Front Street</li>
-					<li>Key West, FL 33040</li>
-					<li>7:00p-7:30p</li>
-					<li>Attire: Cocktail/Semi-Formal</li>
-					<li>Wedding pictures to follow</li>
-				</ul>
-				<li>
-					<strong>Wedding Dinner Reception</strong>
-				</li>
-				<ul>
-					<li>
-						<a
-							href="https://www.sunsetkeycottages.com/key-west-restaurants/latitudes/"
-							target="_blank"
-							>Latitudes</a
-						>
-						at Sunset Key Cottages
-					</li>
-					<li>245 Front Street</li>
-					<li>Key West, FL 33040</li>
-					<li>8:00p-10:00p</li>
-					<li>Attire: Cocktail/Semi-Formal</li>
-				</ul>
-				<li>
-					<strong>Getting There (For Wedding & Reception)</strong>
-				</li>
-				<ul>
-					<li>
-						If not staying at Sunset Key Cottages, you will have to take a ferry
-						to the island.
-					</li>
-					<li>
-						Check in at Margaritaville Key West Resort & Marina where you will
-						be greeted by an Island Ambassador and taken via golf cart to the
-						ferry for a seven minute cruise to Sunset Key. The ferry runs from
-						6:00a-midnight, then on-call from midnight-6:00a.
-					</li>
-					<li>
-						<a
-							href="https://www.sunsetkeycottages.com/contact-us/"
-							target="_blank"
-							>Further details</a
-						>
-					</li>
-				</ul>
-			</ul>
-			<h5>Tuesday, May 4, 2021</h5>
-			<ul>
-				<li>THANK YOU!</li>
-				<ul>
-					<li>
-						Please open your thank you cards and enjoy the rest of your stay in
-						the Florida Keys!
-					</li>
-					<li>We look forward to seeing you again in a few weeks!</li>
-				</ul>
-			</ul>
-		</div>
-	</q-page>
+  <q-page>
+    <div class="q-pa-md full-width">
+      <h1>Wedding Details</h1>
+      <h5>Monday, May 3, 2021: Wedding Day!</h5>
+      <p>
+        We are eloping with immediate family to get married in
+        <span class="struck">Kauai</span>,
+        <span class="struck">St. Lucia</span>,
+        <span class="struck">Key West</span> &hellip;<br />
+        <strong>Sierra Vista in Bedford, VA!</strong> (plans have changed a
+        couple times 😄).
+      </p>
+      <ul>
+        <li>
+          <strong
+            >Sunset Wedding at
+            <a href="https://www.sunsetkeycottages.com" target="_blank"
+              >Sunset Key Cottages</a
+            ></strong
+          >
+        </li>
+        <ul>
+          <li>6302 Forest Road</li>
+          <li>Bedford, VA 24523</li>
+          <li>6:30 pm</li>
+          <li>Attire: Cocktail/Semi-Formal</li>
+          <li>Catered reception dinner to follow</li>
+        </ul>
+      </ul>
+    </div>
+  </q-page>
 </template>
 
 <script>
-	export default {
-		name: "WeddingDetails",
-	};
+export default {
+  name: "WeddingDetails",
+};
 </script>
 
 <style lang="scss">
+.struck {
+  text-decoration: line-through;
+}
 // @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 // body {
 
