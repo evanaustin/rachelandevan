@@ -4,7 +4,7 @@
       <h1>Our Story</h1>
       <p>
         We happened to meet in early 2018 at our local climbing gym &mdash;
-        introduced to one another by a "mutual acquaintance." We clicked right
+        introduced to one another by a mutual acquaintance. We clicked right
         away and became fast friends. Fueled by our passion and love for
         climbing, we found ourselves hanging out (and crushing it) on the
         regular at the gym and outside &mdash; traveling as far as Bishop, CA to
