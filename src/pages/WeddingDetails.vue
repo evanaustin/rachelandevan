@@ -13,12 +13,7 @@
       </p>
       <ul>
         <li>
-          <strong
-            >Sunset Wedding at
-            <a href="https://www.sunsetkeycottages.com" target="_blank"
-              >Sunset Key Cottages</a
-            ></strong
-          >
+          <strong>Wedding Ceremony and Reception at Sierra Vista</strong>
         </li>
         <ul>
           <li>6302 Forest Road</li>
