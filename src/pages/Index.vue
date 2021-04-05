@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       today: new Date(),
-      wedding: new Date(2021, 5, 3)
+      wedding: new Date(2021, 4, 3)
     }
   }
 }
