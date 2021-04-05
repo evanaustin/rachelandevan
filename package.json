@@ -13,10 +13,10 @@
   "dependencies": {
     "@morioh/v-lightbox": "^1.0.3",
     "@quasar/extras": "^1.0.0",
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "quasar": "^1.0.0",
-    "vue-stack-grid": "^1.2.1",
+    "vue-stack-grid": "^1.2.2",
     "vue2-filters": "^0.11.0"
   },
   "devDependencies": {
