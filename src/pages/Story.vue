@@ -1,13 +1,37 @@
 <template>
-	<q-page>
-		<div class="q-pa-md full-width">
+  <q-page>
+    <div class="q-pa-md full-width">
       <h1>Our Story</h1>
-			<p>
-				We met some time in early 2018 at our local climbing gym &mdash; introduced to one another by a mutual friend. We became fast friends and happened to "click" right away. Fueled by our passion and love of climbing, we found ourselves hanging out (and crushing it) at the gym on the regular. We’d learn a little more about each other over post-climb beers and fries at the Wasena Taproom just next door &hellip;
-			</p>
-			<p>
-				<em>Check back again later for more of our story!</em>
-			</p>
+      <p>
+        We happened to meet in early 2018 at our local climbing gym &mdash;
+        introduced to one another by a "mutual acquaintance." We clicked right
+        away and became fast friends. Fueled by our passion and love for
+        climbing, we found ourselves hanging out (and crushing it) on the
+        regular at the gym and outside &mdash; traveling as far as Bishop, CA to
+        endure 6º nights and camp out in tents in the name of some good climbing
+        (and good company). Mix in some more traditional (albeit accidental)
+        dates here and there, and before we knew it we were head over heels for
+        each other.
+      </p>
+      <p>
+        Mere days into 2019, we were officially in a relationship and off to the
+        moon. Over the year, climbing gradually gave way to other cherished
+        activites like paddleboarding, boxing, and cooking. We traveled to the
+        Great Lakes of Michigan, Asheville, the New River Gorge, Moore's Wall in
+        North Carolina, and again back West - this time to Las Vegas (not for
+        anything unscrupulous &mdash; just for climbing 😉).
+      </p>
+      <p>
+        Throughout our relationship and especially in 2020, it would be easy to
+        highlight endless challenges (renovating a 110-year-old house, running a
+        business, frequent job changes, a little pandemic called COVID-19, etc.
+        etc. etc. &hellip;) as the hallmark of our relationship. However, it's
+        far more honest to consider our unrelenting drive, ambition, evergrowing
+        admiration for one another, and the ability to truly listen that has
+        bonded us together over the past three years. All of that was true on
+        Day 1 and has only become more real along the way. We fuel each other's
+        fires.
+      </p>
       <!-- <p>
         For Rachel, Evan had a way of listening to and engaging in conversations about life that helped Rachel process the various situations and struggles she was facing during 2018.
       </p>
@@ -29,12 +53,12 @@
 			<p>
         <strong>Rachel:</strong> "Life is an adventure; a journey. We are to 'run the race with perseverance...fixing our eyes on Jesus (Heb. 12:2),' and there is no one I’d rather be able to turn to, look at, and see running beside me, than Evan Austin. I’m so excited to embark on the journey the Lord has created for me and 'the one whom my soul loves (Song of Solomon 3:4).'"
 			</p> -->
-		</div>
-	</q-page>
+    </div>
+  </q-page>
 </template>
 
 <script>
-	export default {
-		name: "Our Story",
-	};
+export default {
+  name: "Our Story",
+};
 </script>
