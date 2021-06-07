@@ -4,9 +4,7 @@
       <h1>{{ diffDays }}</h1>
       <h5 class="text-center">days until
         <br>
-        Rachel & Evan
-        <br>
-        get married
+        our After-Party!
       </h5>
     </q-page>
   </div>
@@ -34,7 +32,7 @@ export default {
   data() {
     return {
       today: new Date(),
-      wedding: new Date(2021, 4, 3)
+      wedding: new Date(2021, 6, 17)
     }
   }
 }
