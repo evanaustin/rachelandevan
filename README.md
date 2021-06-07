@@ -1,6 +1,7 @@
 # RH11 (rh11-q)
 
 Rachel and Evan
+hosted on Netlify
 
 ## Install the dependencies
 ```bash
