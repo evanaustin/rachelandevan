@@ -62,6 +62,20 @@
             >
             <!-- - approx. 20 mins from HVCC -->
           </li>
+          <li>
+            <a
+              href="https://www.airbnb.com"
+              target="_blank"
+              >Airbnb</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.google.com/maps/place/303+Oakcliff+Dr,+Hardy,+VA+24101/@37.1918165,-79.7699132,17z/data=!3m1!4b1!4m5!3m4!1s0x884d6acae7137005:0x5de12347626af032!8m2!3d37.1918122!4d-79.7677245"
+              target="_blank"
+              >Camping (ask us for details)</a
+            >
+          </li>
         </ul>
       </ul>
     </div>
