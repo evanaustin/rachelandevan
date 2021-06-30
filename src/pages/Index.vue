@@ -26,7 +26,7 @@ export default {
       return 24 * 60 * 60 * 1000;
     },
     diffDays() {
-      return Math.round(Math.abs((this.today - this.wedding) / this.oneDay))
+      return Math.round(Math.abs((this.today - this.wedding) / this.oneDay)) + 1
     }
   },
   data() {
