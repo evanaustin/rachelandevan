@@ -2,7 +2,7 @@
   <q-page>
     <div class="q-pa-md full-width">
       <h1>Wedding Details</h1>
-      <h5>Monday, May 3, 2021: Wedding Day!</h5>
+      <h5><span class="struck">Monday, May 3,</span> Sunday, May 2, 2021: Wedding Day!</h5>
       <p>
         We are eloping with immediate family to get married in
         <span class="struck">Kauai</span>,
