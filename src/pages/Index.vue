@@ -1,7 +1,7 @@
 <template>
   <div>
     <q-page class="column flex flex-center">
-      <h5 class="text-center">We're happily married forever after!</h5>
+      <h4 class="text-center">We're happily married &mdash;<br>forever after!</h4>
     </q-page>
   </div>
 </template>
@@ -38,16 +38,16 @@ export default {
 
 <style lang="sass">
 .page_
-  h1, h5
-    text-shadow: 0 0 15px #777
+  h1, h4
+    text-shadow: 0 0 10px #333
     margin: 0
     color: #fff
 
   h1
     font-weight: 400
 
-  h5
-    margin-top: 1rem
+  h4
+    // margin-top: 1rem
     font-weight: 500
 
   .q-page-container
