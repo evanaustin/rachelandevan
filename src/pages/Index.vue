@@ -1,11 +1,7 @@
 <template>
   <div>
     <q-page class="column flex flex-center">
-      <h1>{{ diffDays }}</h1>
-      <h5 class="text-center">days until
-        <br>
-        our After-Party!
-      </h5>
+      <h5 class="text-center">We're happily married forever after!</h5>
     </q-page>
   </div>
 </template>
@@ -16,26 +12,28 @@ const imgs = [
   "https://live.staticflickr.com/65535/50296168576_e34286f5b4_k.jpg",
   "https://live.staticflickr.com/65535/50295492693_8652397b43_k.jpg",
   "https://live.staticflickr.com/65535/50295493113_adef0aa4b4_k.jpg",
-  "https://live.staticflickr.com/65535/50296327012_df4abfd947_b.jpg"
+  "https://live.staticflickr.com/65535/50296327012_df4abfd947_b.jpg",
 ];
 
 export default {
-  name: 'Home',
+  name: "Home",
   computed: {
     oneDay() {
       return 24 * 60 * 60 * 1000;
     },
     diffDays() {
-      return Math.round(Math.abs((this.today - this.wedding) / this.oneDay)) + 1
-    }
+      return (
+        Math.round(Math.abs((this.today - this.wedding) / this.oneDay)) + 1
+      );
+    },
   },
   data() {
     return {
       today: new Date(),
-      wedding: new Date(2021, 6, 17)
-    }
-  }
-}
+      wedding: new Date(2021, 6, 17),
+    };
+  },
+};
 </script>
 
 <style lang="sass">
